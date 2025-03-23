@@ -1,0 +1,162 @@
+/* Roots */
+:root {
+    --dark: #1A1A1A;
+    --cream: #e8d8c9;
+    --blue: #4b607f;
+    --orange: #f3701e;
+}
+
+/* General Styles */
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--dark);
+    background-color: var(--dark);
+    margin: 1.5rem;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin: 12px;
+}
+
+li a {
+    color: var(--main-color);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Adjustments */
+.center {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.sm-center {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* Header Section */
+
+.header {
+    background-color: var(--dark);
+    color: var(--cream);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.links {
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--cream);
+}
+
+/* Hero Section */
+
+.hero {
+    background-color: var(--dark);
+    color: var(--cream);
+    padding: 32px 0;
+}
+
+.hero div {
+    text-align: center;
+    display: flex;
+    flex: 1;
+}
+
+/* Info Section */
+
+.info {
+    background-color: var(--dark);
+    color: var(--cream);
+    padding: 32px 0;
+    text-align: center;
+}
+
+.box {
+    border: 2px solid var(--orange);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box-text {
+    font-size: 18px;
+    font-weight: 100;
+    color: var(--orange);
+    text-align: center;
+}
+
+/* Reviews Section */
+
+.reviews {
+    background-color: var(--dark);
+    color: var(--cream);
+    padding: 32px 0;
+    text-align: center;
+}
+
+.reviews div {
+    text-align: start;
+    display: flex;
+    flex: 1;
+}
+
+.reviews .main {
+    font-size: 16px;
+    font-weight: 100;
+    font-style: italic;
+    color: var(--cream);
+}
+
+.reviews .author {
+    font-weight: 600;
+    color: var(--cream);
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Footer */
+
+footer {
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: 100;
+    padding: 12px;
+    text-align: center;
+}
